@@ -1,7 +1,7 @@
 # PetAPI
 ### Petshop API using petstore.swagger
 **Language:** C#  
-**Author:** Kelly Green (morkel3b)
+**Author:** Kelly Green (morkel3b)  
 **Date:** 10/09/2021  
 
 **Description**: This is a small console application written in C# which uses the /pet/findByStatus endpoint of the [petstore.swagger.io](https://petstore.swagger.io/) API using the ?status=available parameter. It takes the response as a JSON and converts it into a List of Pet objects. The program then extracts the unique pet category names and presents them to the user. Once a category is selected, the program prints all the pets belonging to that category to the user in reverse alphabetical order.
